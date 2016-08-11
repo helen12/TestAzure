@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="385ef549-f6ba-48dc-8c76-d289ad31b29d" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:2009/WordSearchService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="WordSearchService.disco" MetadataType="Disco" ID="11d867d9-8d2b-4df7-b344-e33396c6815c" SourceId="1" SourceUrl="http://localhost:2009/WordSearchService.svc?disco" />
+    <MetadataFile FileName="WordSearchService.xsd" MetadataType="Schema" ID="9425085d-523a-4b2d-a2fb-ccf7a67fc018" SourceId="1" SourceUrl="http://localhost:2009/WordSearchService.svc?xsd=xsd1" />
+    <MetadataFile FileName="WordSearchService.wsdl" MetadataType="Wsdl" ID="68508871-b353-48c0-a8c2-444f23760c92" SourceId="1" SourceUrl="http://localhost:2009/WordSearchService.svc?wsdl" />
+    <MetadataFile FileName="WordSearchService1.xsd" MetadataType="Schema" ID="43ba65a9-a92c-4239-9bdc-c180197adf62" SourceId="1" SourceUrl="http://localhost:2009/WordSearchService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
